@@ -4,29 +4,20 @@ class Main {
     public static void main(String[] args) {
         // put your code here
         Scanner scanner = new Scanner(System.in);
-        int[] arr = getArray(scanner);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-
-        System.out.println(neverNextTo(arr, a, b));
+        int[] arr = getArr(scanner);
+        int[] arrContains = {scanner.nextInt(),scanner.nextInt()};
+        System.out.println(ValInArraySydeBySyde(arr, arrContains);
     }
 
-    public static int[] getArray(Scanner scanner) {
+    public static int[] getArr(Scanner scanner) {
         int[] retArray = new int[scanner.nextInt()];
-
         for (int i = 0; i < retArray.length; i++) {
             retArray[i] = scanner.nextInt();
         }
         return retArray;
     }
 
-    public static boolean neverNextTo(int[] array, int a, int b) {
-        for (int i = 1; i < array.length; i++) {
-            if (array[i] == a && array[i - 1] == b
-                || array[i - 1] == a && array[i] == b) {
-                return false;
-            }
-        }
-        return true;
+    public static boolean ValInArraySydeBySyde(int[] arr, int[] value) {
+        return false;
     }
 }
