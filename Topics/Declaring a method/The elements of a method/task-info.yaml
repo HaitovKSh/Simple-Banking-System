@@ -1,13 +1,13 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: A body of the method
-- text: A class
-- text: A method name
-- text: Variables
-- text: Return type, or void
 - text: Modifiers
 - text: A list of parameters
+- text: A body of the method
+- text: A method name
+- text: Variables
+- text: A class
+- text: Return type, or void
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:
