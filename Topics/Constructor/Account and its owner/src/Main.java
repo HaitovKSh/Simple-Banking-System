@@ -8,8 +8,8 @@ public class Main {
         // create an instance of Account here
 
         // pass it into process method
-        User user = new User("demo-user", "Alexander", "Schmidt");
-        Account acc = new Account("123456", 1000, user);
+        User user = new User("demo-user", "Alexander","Schmidt");
+        Account acc = new Account("123456",1000, user);
         process(acc);
     }
 
